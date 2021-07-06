@@ -13,7 +13,7 @@ Create CAN SAE J1939 Protocol database JSON configuration file for Parker Hannif
 - Click "JSON Path" button to create or select the JSON file path.
 - Click "Generate" button to generate the JSON file.
 ### Command
-> dbc2phd [dbc_file_path] [node] [JSON_file_path]
+    dbc2phd [dbc_file_path] [node] [JSON_file_path]
 
 - **dbc_file_path** : Location of the dbc file you wish to generate JSON for. Needs to be dbc2phd compatible.
 - **node** : CAN node name of the PHD Display.
