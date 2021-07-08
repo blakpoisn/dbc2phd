@@ -11,8 +11,8 @@ Create CAN SAE J1939 Protocol database JSON configuration file for Parker Hannif
 - Use "Open in Editor" button to open the DBC in Vector CANdb++ Editor. (Make sure the editor is installed in your system and *.dbc file is associated with it.)
 - For a valid DBC file click the "Parse DBC" button to decode the DBC file.
 - Select the node for which you want to create JSON configuration.
-- Click "JSON Path" button to create or select the JSON file path.
-- Click "Generate" button to generate the JSON file.
+- Click "Save JSON" button to create JSON configuration file.
+- Click "Re-Create" button to generate the JSON file code again.
 ### Command
     dbc2phd [dbc_file_path] [node] [JSON_file_path]
 
