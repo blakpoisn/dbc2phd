@@ -1,7 +1,8 @@
 # dbc2phd
 Create CAN SAE J1939 Protocol database JSON configuration file for Parker Hannifin PHD Displays directly from a Vector DBC file.
 ### Helful Links
-- [Parker PHD Displays](https://ph.parker.com/us/17616/en/phd) 
+- [Parker PHD Displays](https://ph.parker.com/us/17616/en/phd)
+- [PHD API Documentation](https://www.parker.com/Literature/Electronic%20Controls%20Division/Literature%20files/PHD_API_Reference_MSG33-5021-M3.pdf)
 - [Vector CANdb++ Editor](https://www.vector.com/int/en/download/?tx_vectorproducts_productdownloaddetail%5Baction%5D=show&tx_vectorproducts_productdownloaddetail%5Bcontroller%5D=Productdownload&tx_vectorproducts_productdownloaddetail%5Bdownload%5D=54817&cHash=8adc056c8357025d3610a12fb823c59d)
 ## How to Use
 ### Directions
@@ -18,6 +19,7 @@ Create CAN SAE J1939 Protocol database JSON configuration file for Parker Hannif
 - **dbc_file_path** : Location of the dbc file you wish to generate JSON for. Needs to be dbc2phd compatible.
 - **node** : CAN node name of the PHD Display.
 - **JSON_file_path** : Location for the generated JSON file.
+- If all above arguments are passed while calling the app, it will generate the JSON file and exit. Thus, can be used as single shot JSON configuration generator via batch file.
 ### DBC Attributes - Compatible
 | Section | Attribute | Description | 
 |--|--|--|
