@@ -167,6 +167,7 @@ namespace dbc2phd
             // 
             // button4
             // 
+            this.button4.Enabled = false;
             this.button4.Location = new System.Drawing.Point(6, 52);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 23);
