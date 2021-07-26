@@ -1,4 +1,4 @@
-# dbc2phd
+# DBC2PHD
 Create CAN SAE J1939 Protocol database JSON configuration file for Parker Hannifin PHD Displays directly from a Vector DBC file.
 ### Helful Links
 - [Parker PHD Displays](https://ph.parker.com/us/17616/en/phd)
