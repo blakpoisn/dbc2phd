@@ -2,7 +2,6 @@
   "profiles": {
     "dbc2phd": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\svn\\CANdbcApp\\files\\JCB_BHL_1.dbc\" DECU \"C:\\svn\\CANdbcApp\\files\\display.json\"",
       "remoteDebugEnabled": false
     }
   }

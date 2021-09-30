@@ -130,7 +130,7 @@ namespace dbc2phd
             this.rateLimit = 250;
             this.ignoreDuplicate = true;
             this.transmitMode = TxMode.onChange;
-            this.transmitRate = 1000;
+            this.transmitRate = 250;
         }
     }
 
@@ -476,7 +476,7 @@ namespace dbc2phd
                 "BA_DEF_DEF_  \"PHD_rateLimit\" 250;",
                 "BA_DEF_DEF_  \"PHD_ignoreDuplicate\" \"Yes\";",
                 "BA_DEF_DEF_  \"GenMsgSendType\" \"onChange\";",
-                "BA_DEF_DEF_  \"GenMsgCycleTime\" \"1000\";",
+                "BA_DEF_DEF_  \"GenMsgCycleTime\" \"250\";",
                 "BA_DEF_DEF_  \"PHD_SignalDataType\" \"integer\";",
                 "BA_DEF_DEF_  \"PHD_stringLength\" 0;"
             };
